@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
+import HomeProperties from "@/components/HomeProperties";
 
-export default function Home() {
-  return (
-    <div className="">
-      HomePage
-    </div>
-  );
+export default function HomePage() {
+    return (
+        <>
+            <Hero/>
+            <InfoBoxes/>
+            <HomeProperties/>
+        </>
+    );
 }
